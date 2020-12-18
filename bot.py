@@ -460,7 +460,6 @@ async def send_cf_rating_changes(contest: str):
         await add_log(f'TheEvilBird is the best bird but send_cf_rating_changes died!\n{e}')
         await bot.send_message(config.ADMIN, f"{e}")
         return 0
-    
 
 
 async def send_ac_rating_changes(contest):
