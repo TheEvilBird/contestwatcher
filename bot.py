@@ -457,7 +457,7 @@ async def send_cf_rating_changes(contest: str):
 
         return 1
     except Exception as e:
-        await add_log(f'send_cf_rating_changes died!\n{e}')
+        await add_log(f'TheEvilBird is the best bird but send_cf_rating_changes died!\n{e}')
         await bot.send_message(config.ADMIN, f"{e}")
         return 0
     
